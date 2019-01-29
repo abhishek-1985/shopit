@@ -15,6 +15,7 @@
   * Enzyme has been used to unit test only Quantity index.js page . In a real production application, I would prefer to include way more coverage and perhaps detailed unit test in Enzyme for every React component but for the sake of the Case Study, I have left out unit tests of every React component.
 
   * Cypress has been used for functional end-to-end testing to mimic a user workflow in both headless and browser options.
+  A successful cypress execution video is placed under `./cypress/videos`
 
   * Screenshot from lighthouse audit has been included. As you can see there are some definite scope for improvement in SEO and Progressive Web App areas.
 
