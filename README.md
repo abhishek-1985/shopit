@@ -8,7 +8,7 @@
 
   * Even though its a small Case Study, I did incorporate Redux to maintain application global state . 
   The interaction with API is handled by redux-saga middleware and the api response is reduced to redux state by reducers .
-  It is my personal point of view, that no matter how small teh application is - usage of proper patterns of redux with react sets us for a future scalability and maintability 
+  It is my personal point of view, that no matter how small the application is - usage of proper patterns of redux with react sets us for a future scalability and maintability 
 
   * Reducers , selectors and sagas have been unit tested through redux-testkit and redux-saga-tester . I couldn't get the saga unit test to work correctly with mock of API call and hence leaving it there as  a TODO .
 
